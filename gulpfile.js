@@ -9,9 +9,6 @@ const 	gulp = require('gulp'),
 		cleancss = require('gulp-clean-css'),
 		rename = require('gulp-rename'),
 		plumber = require('gulp-plumber'),
-
-		uglify = require('gulp-uglify'),
-		concat = require('gulp-concat'),
 		webpack = require('webpack');
 
 
