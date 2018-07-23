@@ -1,6 +1,6 @@
 // variables
 const email  		= 'stevenzimmer@gmail.com';
-const quipUrl 		= 'https://quip-todos.herokuapp.com/';
+const quipUrl 		= 'http://quip-todos.herokuapp.com/';
 const getUrl 		= quipUrl + 'get_todos?email=' + email;
 const addUrl 		= quipUrl + 'add_todo';
 const completedUrl 	= quipUrl + 'mark_completed';
