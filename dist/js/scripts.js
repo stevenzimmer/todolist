@@ -1,8 +1,9 @@
 // variables
-const email  = 'stevenzimmer@gmail.com';
-const getUrl = 'http://quip-todos.herokuapp.com/get_todos?email=' + email;
-const addUrl = 'http://quip-todos.herokuapp.com/add_todo';
-const completedUrl 	= 'http://quip-todos.herokuapp.com/mark_completed';
+const email  		= 'stevenzimmer@gmail.com';
+const quipUrl 		= 'https://quip-todos.herokuapp.com/';
+const getUrl 		= quipUrl + 'get_todos?email=' + email;
+const addUrl 		= quipUrl + 'add_todo';
+const completedUrl 	= quipUrl + 'mark_completed';
 
 
 const createCheckBox = (resp) => {
